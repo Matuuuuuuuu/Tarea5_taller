@@ -65,7 +65,7 @@ qqline(datos$AMT)
 
 #Gráfico residuos vs valores ajustados
 
-plot(fitted(modelo), resid(modelo),
+plot(fitted(model3), resid(model3),
      xlab = "Valores ajustados",
      ylab = "Residuos",
      main = "Residuos vs Valores ajustados")
